@@ -1,0 +1,16 @@
+Initialisation projet sur Github
+
+1- Créer un nouveau repository sur Github
+
+2- Ouvrir un terminal à la racine du dossier à pousser sur Github
+
+3- Git init
+
+4-5-6- 	ssh: git remote add origin git@github.com:username_github/nom_du_repository.git => obligatoire avant le push
+	https (non sécurisé): git remote add origin https://github/com/username_github/nom_du_repository.git => obligatoire avant le push
+
+	-git add nom_du_dossier ou nom_du_fichier ou . (pour tout) ou --all (pour tout) => obligatoire avant le commit
+
+	-git commit -m 'message du commit'
+
+7- (final) => git push -u origin le_nom_de_la_branche_principale
