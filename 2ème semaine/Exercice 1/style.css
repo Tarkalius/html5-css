@@ -1,0 +1,35 @@
+head{
+    color: blue;
+    font-family: fantasy;
+}
+
+main{
+    color: red;
+    width: 70%;
+}
+
+footer{
+    background-color: gray;
+    height: 100px;
+}
+
+#T1{
+    color: green;
+}
+
+h3{
+    color: pink;
+}
+
+h3:hover{
+    background-color: aqua;
+    color: black;
+}
+
+#D2{
+    font-family: monospace;
+}
+
+#D1{
+    font-size: 8px;
+}

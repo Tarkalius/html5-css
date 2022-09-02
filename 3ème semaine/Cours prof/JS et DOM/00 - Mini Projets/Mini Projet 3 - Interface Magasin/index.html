@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Projet J3</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            .row{
+                width: 1050px;
+                padding-left: 150px;
+            }
+            .col{
+                width: 30px;
+            }
+            .table{
+                width:1050px;
+                margin-left: 150px;
+                align-content: center;
+            }
+        </style>
+    </header>
+    <body>
+        <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Produit" id='produit'>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Stock" id='stock'>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Prix" id='prix'>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Emplacement" id='emplacement'>
+              </div>
+              <button type='submit'>Ajouter</button>
+            </div>
+          </form>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">N°</th>
+                <th scope="col">Produit</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Prix</th>
+                <th scope="col">Emplacement</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Inserer les lignes ici -->
+            </tbody>
+          </table>
+        </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    </body>
+</html>
+
+<!-- On remarque que lorsqu'on actualise la page les lignes ajoutées disparaissent
+explication: a chaque fois qu'on acctualise le code et interprété des le début
+ce qui fait que les lignes ajoutées disparaissent étant donné que le création dépend
+ du clique sur le bouton ajouter -->
+
+
+

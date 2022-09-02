@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form method="POST" action="">
+
+        <h3>Coordonnées</h3>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom">
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom"><br><br>
+
+        <label for="check">Je désire reçevoir une documentation</label>
+        <input type="checkbox" id="check" name="check"><br><br>
+
+        <label for="selectionPays">Veuillez choisisr un Pays</label>
+        <select name="selectionPays" id="selectionPays">
+            <option value="france"> France</option>
+            <option value="italie">Italie</option>
+            <option value="espagne">Espagne</option>
+        </select><br>
+
+        <p>Sexe
+            <input type="radio" id="homme" name="homme">
+            <label for="homme">Masculin</label>
+    
+            <input type="radio" id="femme" name="femme">
+            <label for="femme">Féminin</label>
+    
+            <input type="radio" id="autre" name="autre">
+            <label for="autre">Autre</label>
+        </p>
+
+        <p>Langue(s) parlée(s)
+            <input type="checkbox" id="francais" name="langue">
+            <label for="francais" name="langue">Français</label>
+
+            <input type="checkbox" id="anglais" name="langue">
+            <label for="anglais" name="langue">Anglais</label>
+
+            <input type="checkbox" id="chinois" name="langue">
+            <label for="chinois" name="langue">Chinois</label> 
+        </p>
+
+        <label for="temoignage">Vous pouvez nous faire parvenir vos questions</label><br>
+        <textarea name="temoignage" id="temoignage" cols="50" rows="5"></textarea><br><br>
+
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Effacer">
+
+    </form>
+</body>        
